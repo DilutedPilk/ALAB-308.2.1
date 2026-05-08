@@ -28,9 +28,13 @@ if (i_need_this_to_work > max_capacity_80){
 plants = 100;
 weeks = 10;
 
-let plants_capacity = weeks*plant_space
+let plants_capacity = weeks*plant_space;
 
-const space_of_all_plants = (plants_capacity*plants) 
+const space_of_all_plants = plants_capacity*plants;
 
-console.log(`Each plant within the age of ${weeks} weeks would need ${plants_capacity} amount of space.`)
-console.log(`That means that for ${plants} plants, the raduis would need to be ${space_of_all_plants}.`)
+console.log(`Each plant within the age of ${weeks} weeks would need ${plants_capacity} amount of space.`);
+console.log(`That means that for ${plants} plants, the raduis would need to be ${space_of_all_plants}.`);
+
+// Part 3 --------------------------------------------->
+
+
