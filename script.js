@@ -37,9 +37,6 @@ console.log(`The amount of space that the plants will take up is ${plants_capaci
 
 // // Part 3 --------------------------------------------->
 
-plants;
-
-
 try {
     const radius = 5;
     const plant_space = 0.8
