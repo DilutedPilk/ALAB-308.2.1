@@ -9,7 +9,7 @@ let plants = 20
 
 let plants_per_week = (plants * weeks) * 2
 
-let plants_capacity = plants * plant_space;
+let plants_capacity = plants_per_week * plant_space;
 
 for (weeks = 1; weeks <= 3; weeks++) {
 
@@ -26,16 +26,13 @@ for (weeks = 1; weeks <= 3; weeks++) {
 
 // // Part 2 --------------------------------------------->
 
-// plants = 100;
-// weeks = 10;
+plants = 100;
+weeks = 10;
+plants_per_week = (plants * weeks) * 2;
+plants_capacity = plants_per_week * plant_space;
 
-// let plants_capacity = weeks * plant_space;
-
-// const space_of_all_plants = plants_capacity * plants;
-
-// console.log(`Each plant within the age of ${weeks} weeks would need ${plants_capacity} amount of space.`);
-// console.log(`That means that for ${plants} plants, the raduis would need to be ${space_of_all_plants} meters.`);
-
+console.log(`If the amount of plants starts at ${plants}, then at week ${weeks} there will be ${plants_per_week} plants.`)
+console.log(`The amount of space that the plants will take up is ${plants_capacity} meters, therefore the radius would be ${plants_capacity / 2}.`)
 // // Part 3 --------------------------------------------->
 
 
