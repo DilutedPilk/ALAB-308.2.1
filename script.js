@@ -28,11 +28,26 @@ for (weeks = 1; weeks <= 3; weeks++) {
 
 plants = 100;
 weeks = 10;
-plants_per_week = (plants * weeks) * 2;
+plants_per_week = (plants * weeks) * 2
 plants_capacity = plants_per_week * plant_space;
+
 
 console.log(`If the amount of plants starts at ${plants}, then at week ${weeks} there will be ${plants_per_week} plants.`)
 console.log(`The amount of space that the plants will take up is ${plants_capacity} meters, therefore the radius would be ${plants_capacity / 2}.`)
+
 // // Part 3 --------------------------------------------->
 
+plants;
 
+
+try {
+    const radius = 5;
+    const plant_space = 0.8
+    let plants = 20
+
+    if (plants_capacity > area) {
+        throw new Error("Not enough space!");
+    }
+} catch (Error) {
+    console.log(`The amount of plants do not fit in this container!`)
+}
